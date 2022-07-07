@@ -1,3 +1,5 @@
-body {
-    background-color: pink;
-}
+@import "partials/variables";
+@import "partials/reset";
+@import "partials/typo";
+@import "partials/header";
+@import "partials/containers";

@@ -1,1 +1,42 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;
+
+200;300;400;500;600;700;800&family=Open+Sans:wght@300;400;500;600;700;800&family=Roboto:wght@100;300;400;500;700;900&display=swap);:root {
+  /*------------------------------------
+                COLORS
+  ------------------------------------*/
+  --primary-color: #0c7cec;
+  --secondary-color: #0282f9;
+  /*------------------------------------
+             CONTAINERS SIZE
+  ------------------------------------*/
+  --container-md: 75rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.header__top {
+  min-height: 1rem;
+  background-color: var(--primary-color);
+  color: #fff;
+  text-align: right;
+  font-size: 0.75rem;
+}
+
+.header__top span {
+  padding: 0.3125rem;
+}
+
+.container {
+  margin: auto;
+  width: 100%;
+  max-width: var(--container-md);
+}
 

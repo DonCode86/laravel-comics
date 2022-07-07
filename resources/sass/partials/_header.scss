@@ -1,0 +1,11 @@
+.header__top {
+    min-height: 1rem;
+    background-color: var(--primary-color);
+    color: #fff;
+    text-align: right;
+    font-size: 0.75rem;
+
+    & span {
+        padding: 0.3125rem;
+    }
+}

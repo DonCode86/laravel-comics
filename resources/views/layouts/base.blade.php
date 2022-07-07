@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="{{asset('css/app.css')}}">
 </head>
 <body>
+  @include('partials.headerTop')
   @include('partials.header')
   <main>
     @yield('page-content')
