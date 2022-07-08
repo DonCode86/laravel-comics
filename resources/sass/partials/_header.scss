@@ -9,3 +9,33 @@
         padding: 0.3125rem;
     }
 }
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.25rem;
+
+    &__logo img {
+        width: 4rem;
+        height: 4rem;
+        margin-bottom: 0.6125rem;
+    }
+}
+
+.header__nav {
+    display: flex;
+    align-items: center;
+
+    & ul {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        list-style: none;
+        text-decoration: none;
+        column-gap: 1.875rem;
+        font-size: 0.75rem;
+        font-weight: bold;
+        height: 100%;
+        align-items: center;
+    }
+}

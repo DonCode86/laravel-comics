@@ -1,10 +1,11 @@
 <header>
+  <div class="container">
    <header class="header">
       <div class="header__logo">
         <img src="{{asset('img/dc-logo.png')}}" alt="">
       </div>
       <nav class="header__nav">
-        <ul class="header__navlist"> 
+        <ul> 
           <li><a href="#"></a>CHARACTERS</li>
           <li><a href="#"></a>COMICS</li>
           <li><a href="#"></a>MOVIES</li>
@@ -17,5 +18,6 @@
           <li><a href="#"></a>SHOP</li>
         </ul>
       </nav>
-   </header>
+    </header>
+  </div>
 </header>

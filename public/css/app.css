@@ -34,9 +34,45 @@ body {
   padding: 0.3125rem;
 }
 
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.25rem;
+}
+
+.header__logo img {
+  width: 4rem;
+  height: 4rem;
+  margin-bottom: 0.6125rem;
+}
+
+.header__nav {
+  display: flex;
+  align-items: center;
+}
+
+.header__nav ul {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  list-style: none;
+  text-decoration: none;
+  -moz-column-gap: 1.875rem;
+       column-gap: 1.875rem;
+  font-size: 0.75rem;
+  font-weight: bold;
+  height: 100%;
+  align-items: center;
+}
+
 .container {
   margin: auto;
   width: 100%;
   max-width: var(--container-md);
+}
+
+.jumbo {
+  background-image: url(/images/jumbotron.jpg?1b0a3671766964a4114f90322970b124);
+  height: 20rem;
 }
 

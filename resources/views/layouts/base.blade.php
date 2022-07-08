@@ -10,6 +10,7 @@
 <body>
   @include('partials.headerTop')
   @include('partials.header')
+  @include('partials.jumbo')
   <main>
     @yield('page-content')
   </main>
