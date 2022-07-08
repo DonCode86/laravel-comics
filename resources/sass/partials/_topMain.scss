@@ -9,6 +9,12 @@
         justify-content: space-between;
     }
 
+    .list {
+        padding: 1.3rem 0 1.9rem;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
     h2 {
         font-size: 12px;
         margin-top: 0.625rem;

@@ -1,5 +1,5 @@
 <section class="top__main">
-  <div class="container">
+  <div class="cards-container container">
     <button class="comics__button">Current Series</button>
       <div class="list">
         @foreach ($comics as $comic)
