@@ -3130,19 +3130,18 @@ body {
   display: flex;
 }
 
-.main_top_img {
+.main__img {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 3.5rem 0;
+  padding: 2.5rem 0;
 }
 
-.main_top_img img {
+.main__img img {
   height: 2.5rem;
-  width: 2.5rem;
 }
 
-.main_top_img span {
+.main__img span {
   margin-left: 0.625rem;
   justify-content: center;
   color: white;

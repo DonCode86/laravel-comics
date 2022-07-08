@@ -3,15 +3,14 @@
         background-color: var(--secondary-color);
         display: flex;
     }
-    &_top_img {
+    &__img {
         display: flex;
         align-items: center;
         justify-content: center;
-        padding: 3.5rem 0;
+        padding: 2.5rem 0;
 
         img {
             height: 2.5rem;
-            width: 2.5rem;
         }
         span {
             margin-left: 0.625rem;
