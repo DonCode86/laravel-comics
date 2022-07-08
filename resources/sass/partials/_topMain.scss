@@ -1,0 +1,30 @@
+.top__main {
+    color: white;
+    background-color: black;
+    padding: 3.125rem 0;
+
+    .cards-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    h2 {
+        font-size: 12px;
+        margin-top: 0.625rem;
+        text-transform: uppercase;
+        font-weight: lighter;
+    }
+
+    .card {
+        width: calc(16% - 1.25rem);
+        margin: 0.625rem;
+
+        img {
+            width: 100%;
+            height: 9.375rem;
+            object-fit: cover;
+            object-position: top;
+        }
+    }
+}
