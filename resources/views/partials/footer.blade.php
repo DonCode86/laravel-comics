@@ -1,1 +1,0 @@
-<footer>made with love</footer>

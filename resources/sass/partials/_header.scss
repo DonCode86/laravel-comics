@@ -13,12 +13,15 @@
 .header {
     display: flex;
     justify-content: space-between;
-    margin-top: 1.25rem;
+    margin: 0.5rem 0;
+
+    &__logo {
+        display: flex;
+    }
 
     &__logo img {
         width: 4rem;
         height: 4rem;
-        margin-bottom: 0.6125rem;
     }
 }
 

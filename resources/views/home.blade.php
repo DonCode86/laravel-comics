@@ -5,5 +5,6 @@ HOME PAGE
 @endsection
 
 @section('page-content')
-    il contenuto
+    @include('partials.topMain')
+    @include('partials.bottomMain')
 @endsection

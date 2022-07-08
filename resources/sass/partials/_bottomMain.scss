@@ -1,0 +1,29 @@
+.main {
+    &__blue {
+        background-color: var(--secondary-color);
+        display: flex;
+    }
+    &_top_img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 3.5rem 0;
+
+        img {
+            height: 2.5rem;
+            width: 2.5rem;
+        }
+        span {
+            margin-left: 0.625rem;
+            justify-content: center;
+            color: white;
+            font-size: 10px;
+        }
+    }
+
+    &__blue .container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
