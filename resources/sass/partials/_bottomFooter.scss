@@ -1,0 +1,29 @@
+.bottom__footer {
+    background-color: #303030;
+    padding: 1.4rem 0;
+}
+
+.bottom__footer .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom__footer button {
+    padding: 0.6rem;
+    background-color: transparent;
+    border: 1px solid var(--primary-color);
+    color: white;
+    cursor: pointer;
+}
+
+.social-icons {
+    display: flex;
+    column-gap: 0.9375rem;
+    align-items: center;
+}
+.social-icons a:first-child {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: bold;
+    margin-right: 0.625rem;
+}

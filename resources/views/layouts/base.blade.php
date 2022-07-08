@@ -15,5 +15,6 @@
     @yield('page-content')
   </main>
   @include('partials.topFooter')
+  @include('partials.bottomFooter')
 </body>
 </html>
