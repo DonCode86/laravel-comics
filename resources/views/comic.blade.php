@@ -6,5 +6,5 @@
  
 @section('page-content')
   {{-- @include('partials.card') --}}
-  <h1>{{$card['title']}}</h1>
+  <h1>{{$comic['title']}}</h1>
 @endsection

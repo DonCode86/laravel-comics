@@ -24,8 +24,7 @@ Route::get('comic/{id}', function ($id) {
         abort('404');
     }
 
-    $card = $comics[$id];
-    
+    $comic = $comics[$id];
 
-    return view('comic', compact('card'));
+    return view('comic', compact('comic'));
 })->where('id', '[0-9]+')->name('comic');
