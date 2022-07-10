@@ -3123,6 +3123,9 @@ body {
 .jumbo {
   background-image: url(/images/jumbotron.jpg?1b0a3671766964a4114f90322970b124);
   height: 20rem;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
 }
 
 .main__blue {
@@ -3269,5 +3272,41 @@ body {
      object-fit: cover;
   -o-object-position: top;
      object-position: top;
+}
+
+.comic__cover {
+  position: relative;
+  background-color: var(--primary-color);
+  height: 5.5rem;
+}
+
+.comic__cover-container {
+  position: absolute;
+  bottom: 1rem;
+  border: 0.0625rem solid #f6f6f6;
+}
+
+.comic__cover-img {
+  height: 18rem;
+}
+
+.comic__cover-text {
+  position: absolute;
+  top: 0;
+}
+
+.comic__cover-text,
+.comic__cover-bottom-text {
+  color: var(--secondary-color-text);
+  background-color: #00a9d9;
+  padding: 0.0625rem 0.1875rem;
+  text-align: center;
+}
+
+.comic__cover-gallery {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
 }
 

@@ -1,0 +1,37 @@
+.comic {
+    &__cover {
+        position: relative;
+        background-color: var(--primary-color);
+        height: 5.5rem;
+
+        &-container {
+            position: absolute;
+            bottom: 1rem;
+            border: 0.0625rem solid #f6f6f6;
+        }
+
+        &-img {
+            height: 18rem;
+        }
+
+        &-text {
+            position: absolute;
+            top: 0;
+        }
+
+        &-text,
+        &-bottom-text {
+            color: var(--secondary-color-text);
+            background-color: #00a9d9;
+            padding: 0.0625rem 0.1875rem;
+            text-align: center;
+        }
+
+        &-gallery {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            left: 0;
+        }
+    }
+}
