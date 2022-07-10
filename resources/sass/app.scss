@@ -1,4 +1,3 @@
-@import "node_modules/font-awesome/scss/font-awesome.scss";
 @import "partials/variables";
 @import "partials/reset";
 @import "partials/typo";
@@ -10,3 +9,7 @@
 @import "partials/bottomFooter";
 @import "partials/topMain";
 @import "partials/comic";
+@import "~@fortawesome/fontawesome-free/scss/fontawesome";
+@import "~@fortawesome/fontawesome-free/scss/regular";
+@import "~@fortawesome/fontawesome-free/scss/solid";
+@import "~@fortawesome/fontawesome-free/scss/brands";

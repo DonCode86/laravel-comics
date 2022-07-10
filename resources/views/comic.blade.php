@@ -20,27 +20,27 @@
           </div>
         </div>
       </div>
-      <div class="flex">
-        <div>
-          <div>
-            <h2>{{$comic['title']}}</h2> 
-          </div>   
-          <div>
-            <div>
-              <span>US. Price <span>{{$comic['price']}}</span></span>
-            </div>   
-            <div>
-              <span>Chech Avialibility</span>
-            </div>
+      <div class="container">
+        <div class="comic-row">
+          <div class="comic-col__sx">
+              <h1 class="comic-col__title">{{$comic["title"]}}</h1>
+              <div class="comic-col__shop">
+                  <div class="comic-col__shop-sx">
+                      <span>U.S. Price: <span class="comic-col__shop-price">{{$comic["price"]}}</span></span>
+                      <span class="comic-col__shop-available">Available</span>
+                  </div>
+                  <div class="comic-col__shop-dx">
+                      <span>Check Availability <i class="fa-solid fa-caret-down"></i></span>
+                  </div>
+              </div>
+              <p class="comic-col__description">{{$comic["description"]}}</p>
           </div>
-          <p>
-            {{$comic['description']}}
-          </p>
+          <div class="comic-col__dx">
+              <span class="comic-col__dx-adv">Advertisement</span>
+              <img src="{{asset('img/adv.jpg')}}" alt="">
+          </div>
         </div>
-        <div>
-          <img src="{{asset('img/adv.jpg')}}" alt="">
-        </div>
-      </div>   
+      </div>
     </section>
   </main>
 @endsection
