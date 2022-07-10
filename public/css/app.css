@@ -3091,7 +3091,7 @@ body {
 }
 
 .header__logo img {
-  width: 8rem;
+  width: 4rem;
   height: 4rem;
 }
 
@@ -3259,6 +3259,7 @@ body {
 .top__main .card {
   width: calc(16% - 1.25rem);
   margin: 0.625rem;
+  cursor: pointer;
 }
 
 .top__main .card img {

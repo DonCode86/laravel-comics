@@ -14,7 +14,6 @@ use Illuminate\Support\Facades\Route;
 */
 Route::get('/', function () {
     $comics = config('comics');
-
     return view('home', compact('comics'));
 })->name('home');
 
@@ -25,7 +24,7 @@ Route::get('comic/{id}', function ($id) {
         abort('404');
     }
 
-    $comic = $comics[$id];
-    
-    return view('home', compact('comics'));
+    $card = $comics[$id];
+
+    return view('comic', compact('card'));
 })->where('id', '[0-9]+')->name('comic');
